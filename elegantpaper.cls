@@ -202,9 +202,9 @@
   \newcommand\figref[1]{{\bfseries 图~\ref{#1}}}
   \newcommand\tabref[1]{{\bfseries 表~\ref{#1}}}
   \RequirePackage{gbt7714}
-  \ifdefstring{\ELEGANT@cite}{authoryear}{
-    \bibliographystyle{gbt7714-author-year}}{
-    \bibliographystyle{gbt7714-numerical}}
+  % \ifdefstring{\ELEGANT@cite}{authoryear}{
+  %   \bibliographystyle{gbt7714-author-year}}{
+  %   \bibliographystyle{gbt7714-numerical}}
   \ifdefstring{\ELEGANT@cite}{numbers}{
     \citestyle{numbers}}{\relax}
   \renewcommand{\appendixtocname}{附录}
@@ -234,7 +234,8 @@
   \newcommand\figref[1]{{\bfseries Figure~\ref{#1}}}
   \newcommand\tabref[1]{{\bfseries Table~\ref{#1}}}
   \RequirePackage[\ELEGANT@cite,sort&compress]{natbib}
-  \bibliographystyle{\ELEGANT@bibstyle}}{\relax}
+  % \bibliographystyle{\ELEGANT@bibstyle}}{\relax}
+  \bibliographystyle{IEEEtr}}{\relax}
 
 \setlength{\bibsep}{0.0pt}
 \def\bibfont{\footnotesize}

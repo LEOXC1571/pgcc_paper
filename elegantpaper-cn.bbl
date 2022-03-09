@@ -1,0 +1,54 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Rendle et~al.(2009)Rendle, Freudenthaler, Gantner, and
+  Schmidt-Thieme]{rendle_bpr_2009}
+RENDLE~S, FREUDENTHALER~C, GANTNER~Z, et~al.
+\newblock {BPR}: {Bayesian} {Personalized} {Ranking} from {Implicit}
+  {Feedback}[J].
+\newblock 2009: 10.
+
+\bibitem[Li et~al.(2019)Li, Diao, Cao, Zhang, and Feng]{li_tag-aware_2019}
+LI~H, DIAO~X, CAO~J, et~al.
+\newblock Tag-aware recommendation based on {Bayesian} personalized ranking and
+  feature mapping[J/OL].
+\newblock Intelligent Data Analysis, 2019, 23\allowbreak (3):
+  641-659\allowbreak[2021-11-25].
+\newblock
+  \url{https://www.medra.org/servlet/aliasResolver?alias=iospress&doi=10.3233/IDA-193982}.
+
+\bibitem[Wang et~al.(2019)Wang, He, Wang, Feng, and Chua]{wang_neural_2019}
+WANG~X, HE~X, WANG~M, et~al.
+\newblock Neural {Graph} {Collaborative} {Filtering}[J/OL].
+\newblock Proceedings of the 42nd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval, 2019:
+  165-174\allowbreak[2022-03-01].
+\newblock \url{http://arxiv.org/abs/1905.08108}.
+\newblock DOI: \doi{10.1145/3331184.3331267}.
+
+\bibitem[He et~al.(2020)He, Deng, Wang, Li, Zhang, and Wang]{he_lightgcn_2020}
+HE~X, DENG~K, WANG~X, et~al.
+\newblock {LightGCN}: {Simplifying} and {Powering} {Graph} {Convolution}
+  {Network} for {Recommendation}[J/OL].
+\newblock arXiv:2002.02126 [cs], 2020\allowbreak[2022-02-28].
+\newblock \url{http://arxiv.org/abs/2002.02126}.
+
+\bibitem[Zhao et~al.(2021)Zhao, Mu, Hou, Lin, Chen, Pan, Li, Lu, Wang, Tian,
+  Min, Feng, Fan, Chen, Wang, Ji, Li, Wang, and Wen]{zhao_recbole_2021}
+ZHAO~W~X, MU~S, HOU~Y, et~al.
+\newblock {RecBole}: {Towards} a {Unified}, {Comprehensive} and {Efficient}
+  {Framework} for {Recommendation} {Algorithms}[J/OL].
+\newblock arXiv:2011.01731 [cs], 2021\allowbreak[2022-02-11].
+\newblock \url{http://arxiv.org/abs/2011.01731}.
+
+\end{thebibliography}
