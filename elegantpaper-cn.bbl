@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -11,6 +11,29 @@
   \let\eprint\href
 \fi
 
+\bibitem[Sedhain et~al.(2015)Sedhain, Menon, Sanner, and
+  Xie]{sedhain_autorec_2015}
+SEDHAIN~S, MENON~A~K, SANNER~S, et~al.
+\newblock {AutoRec}: {Autoencoders} {Meet} {Collaborative}
+  {Filtering}[C]//\allowbreak
+Proceedings of the 24th {International} {Conference} on {World} {Wide} {Web}.
+\newblock Florence Italy: ACM, 2015: 111-112.
+
+\bibitem[Shan et~al.(2016)Shan, Hoens, Jiao, Wang, Yu, and Mao]{shan_deep_2016}
+SHAN~Y, HOENS~T~R, JIAO~J, et~al.
+\newblock Deep {Crossing}: {Web}-{Scale} {Modeling} without {Manually}
+  {Crafted} {Combinatorial} {Features}[C]//\allowbreak
+Proceedings of the 22nd {ACM} {SIGKDD} {International} {Conference} on
+  {Knowledge} {Discovery} and {Data} {Mining}.
+\newblock San Francisco California USA: ACM, 2016: 255-262.
+
+\bibitem[Wu et~al.(2019)Wu, Tang, Zhu, Wang, Xie, and
+  Tan]{wu_session-based_2019}
+WU~S, TANG~Y, ZHU~Y, et~al.
+\newblock Session-{Based} {Recommendation} with {Graph} {Neural} {Networks}[J].
+\newblock Proceedings of the AAAI Conference on Artificial Intelligence, 2019,
+  33: 346-353.
+
 \bibitem[Rendle et~al.(2009)Rendle, Freudenthaler, Gantner, and
   Schmidt-Thieme]{rendle_bpr_2009}
 RENDLE~S, FREUDENTHALER~C, GANTNER~Z, et~al.
@@ -21,34 +44,26 @@ RENDLE~S, FREUDENTHALER~C, GANTNER~Z, et~al.
 \bibitem[Li et~al.(2019)Li, Diao, Cao, Zhang, and Feng]{li_tag-aware_2019}
 LI~H, DIAO~X, CAO~J, et~al.
 \newblock Tag-aware recommendation based on {Bayesian} personalized ranking and
-  feature mapping[J/OL].
-\newblock Intelligent Data Analysis, 2019, 23\allowbreak (3):
-  641-659\allowbreak[2021-11-25].
-\newblock
-  \url{https://www.medra.org/servlet/aliasResolver?alias=iospress&doi=10.3233/IDA-193982}.
+  feature mapping[J].
+\newblock Intelligent Data Analysis, 2019, 23\allowbreak (3): 641-659.
 
 \bibitem[Wang et~al.(2019)Wang, He, Wang, Feng, and Chua]{wang_neural_2019}
 WANG~X, HE~X, WANG~M, et~al.
-\newblock Neural {Graph} {Collaborative} {Filtering}[J/OL].
+\newblock Neural {Graph} {Collaborative} {Filtering}[J].
 \newblock Proceedings of the 42nd International ACM SIGIR Conference on
-  Research and Development in Information Retrieval, 2019:
-  165-174\allowbreak[2022-03-01].
-\newblock \url{http://arxiv.org/abs/1905.08108}.
-\newblock DOI: \doi{10.1145/3331184.3331267}.
+  Research and Development in Information Retrieval, 2019: 165-174.
 
 \bibitem[He et~al.(2020)He, Deng, Wang, Li, Zhang, and Wang]{he_lightgcn_2020}
 HE~X, DENG~K, WANG~X, et~al.
 \newblock {LightGCN}: {Simplifying} and {Powering} {Graph} {Convolution}
-  {Network} for {Recommendation}[J/OL].
-\newblock arXiv:2002.02126 [cs], 2020\allowbreak[2022-02-28].
-\newblock \url{http://arxiv.org/abs/2002.02126}.
+  {Network} for {Recommendation}[J].
+\newblock arXiv:2002.02126 [cs], 2020.
 
 \bibitem[Zhao et~al.(2021)Zhao, Mu, Hou, Lin, Chen, Pan, Li, Lu, Wang, Tian,
   Min, Feng, Fan, Chen, Wang, Ji, Li, Wang, and Wen]{zhao_recbole_2021}
 ZHAO~W~X, MU~S, HOU~Y, et~al.
 \newblock {RecBole}: {Towards} a {Unified}, {Comprehensive} and {Efficient}
-  {Framework} for {Recommendation} {Algorithms}[J/OL].
-\newblock arXiv:2011.01731 [cs], 2021\allowbreak[2022-02-11].
-\newblock \url{http://arxiv.org/abs/2011.01731}.
+  {Framework} for {Recommendation} {Algorithms}[J].
+\newblock arXiv:2011.01731 [cs], 2021.
 
 \end{thebibliography}
